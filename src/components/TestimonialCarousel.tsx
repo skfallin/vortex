@@ -60,8 +60,18 @@ export function TestimonialCarousel() {
   const [ref, isInView] = useInViewAnimation<HTMLElement>();
   const [index, setIndex] = useState(testimonials.length);
   const [paused, setPaused] = useState(false);
+  const [activeCardWidth, setActiveCardWidth] = useState(cardWidth);
   const items = useMemo(() => [...testimonials, ...testimonials, ...testimonials], []);
   const animationClass = isInView ? 'animate-fade-in-up' : 'opacity-0';
+
+  useEffect(() => {
+    const updateWidth = () => setActiveCardWidth(Math.min(window.innerWidth - 48, cardWidth));
+
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+
+    return () => window.removeEventListener('resize', updateWidth);
+  }, []);
 
   useEffect(() => {
     if (paused) {
@@ -132,7 +142,7 @@ export function TestimonialCarousel() {
         <div className="overflow-visible">
           <div
             className="flex gap-6 transition-transform duration-[800ms] ease-[cubic-bezier(0.4,0,0.2,1)]"
-            style={{ transform: `translateX(-${index * (cardWidth + gap)}px)` }}
+            style={{ transform: `translateX(-${index * (activeCardWidth + gap)}px)` }}
           >
             {items.map((item, itemIndex) => {
               const distance = Math.abs(itemIndex - index);

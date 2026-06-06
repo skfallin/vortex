@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { CSSProperties, useRef, useState } from 'react';
 import { Button } from './Button';
 import { marqueeImages } from './Marquee';
 import { useInViewAnimation } from '../hooks/useInViewAnimation';
@@ -62,8 +62,8 @@ export function PartnerSection() {
             style={{
               left: item.x,
               top: item.y,
-              transform: `translate(-50%, -50%) rotate(${item.rotation}deg)`,
-            }}
+              '--rotation': `${item.rotation}deg`,
+            } as CSSProperties}
           />
         ))}
         <div className="relative z-10 px-6">
