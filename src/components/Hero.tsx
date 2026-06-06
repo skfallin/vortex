@@ -11,43 +11,44 @@ export function Hero() {
         className={`mb-4 font-mondwest text-[32px] font-semibold tracking-tight text-[#051A24] md:text-[40px] lg:text-[44px] ${animationClass}`}
         style={{ animationDelay: '0.1s' }}
       >
-        Viktor Oddy
+        Vittorio Conti
       </p>
       <p
         className={`mb-2 font-mono text-xs text-[#051A24] md:text-sm ${animationClass}`}
         style={{ animationDelay: '0.2s' }}
       >
-        The creative studio of Viktor Oddy
+        Lo studio creativo di Vittorio Conti
       </p>
       <h1
         className={`whitespace-nowrap text-[32px] leading-[1.1] tracking-tight text-[#0D212C] md:text-[40px] lg:text-[44px] ${animationClass}`}
         style={{ animationDelay: '0.3s' }}
       >
-        Build the <span className="font-mondwest">next wave</span>,
+        Costruisci la <span className="font-mondwest">prossima onda</span>,
         <br />
-        the <span className="font-mondwest">bold way.</span>
+        con <span className="font-mondwest">coraggio.</span>
       </h1>
       <div
         className={`mt-5 flex flex-col gap-6 text-sm leading-relaxed text-[#051A24] md:mt-6 md:text-base ${animationClass}`}
         style={{ animationDelay: '0.4s' }}
       >
         <p>
-          I spent seven years at Apple crafting products used by over a billion people. I founded
-          Vortex Studio to bring that same level of thinking to innovators shaping what comes next.
+          Ho passato sette anni in Apple a progettare prodotti usati da oltre un miliardo di persone.
+          Ho fondato Vortex Studio per portare la stessa qualità di pensiero agli innovatori che
+          stanno costruendo ciò che verrà.
         </p>
         <p>
-          The studio is deliberately small. I guide the creative vision on every project, backed by
-          a veteran design crew that moves fast without cutting corners.
+          Lo studio resta volutamente piccolo. Seguo la visione creativa di ogni progetto, affiancato
+          da un team senior che lavora veloce senza sacrificare precisione e cura.
         </p>
-        <p>Projects start at $5,000 per month.</p>
+        <p>I progetti partono da €5.000 al mese.</p>
       </div>
       <div
         className={`mt-5 flex flex-col gap-3 md:mt-6 md:gap-4 sm:flex-row sm:justify-center ${animationClass}`}
         style={{ animationDelay: '0.5s' }}
       >
-        <Button href="https://halaskastudio.com/./book">Start a chat</Button>
+        <Button href="https://halaskastudio.com/./book">Apri una conversazione</Button>
         <Button href="#projects" variant="secondary">
-          View projects
+          Guarda i progetti
         </Button>
       </div>
     </section>

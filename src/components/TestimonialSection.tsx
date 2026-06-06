@@ -69,14 +69,14 @@ export function TestimonialSection() {
         className={`mt-6 text-[32px] leading-[1.1] tracking-tight text-[#0D212C] md:text-[40px] lg:text-[44px] ${animationClass}`}
         style={{ animationDelay: '0.2s' }}
       >
-        I left <span className="font-mondwest">Apple</span> to build the studio I always wanted to
-        work with
+        Ho lasciato <span className="font-mondwest">Apple</span> per creare lo studio con cui avrei
+        sempre voluto lavorare
       </blockquote>
       <p
         className={`mt-6 text-sm italic text-[#273C46] ${animationClass}`}
         style={{ animationDelay: '0.3s' }}
       >
-        Viktor Oddy
+        Vittorio Conti
       </p>
       <div
         className={`mt-10 flex flex-wrap items-center justify-center gap-8 text-2xl font-medium text-slate-900 ${animationClass}`}
@@ -89,7 +89,7 @@ export function TestimonialSection() {
       <img
         ref={imageRef}
         src={imageUrl}
-        alt="Chris Halaska"
+        alt="Vittorio Conti"
         className={`mx-auto mt-12 w-full max-w-xs rounded-2xl shadow-lg ${animationClass}`}
         style={{ animationDelay: '0.5s', transform: `translateY(${offset}px)` }}
       />

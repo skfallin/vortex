@@ -2,9 +2,9 @@ import { ArrowUpRight } from 'lucide-react';
 import { Button } from './Button';
 
 const internalLinks = [
-  { label: 'Services', href: '#pricing' },
-  { label: 'Work', href: '#projects' },
-  { label: 'About', href: '#top' },
+  { label: 'Servizi', href: '#pricing' },
+  { label: 'Progetti', href: '#projects' },
+  { label: 'Studio', href: '#top' },
 ];
 
 const externalLinks = [
@@ -16,7 +16,7 @@ export function Footer() {
   return (
     <footer className="mx-auto flex w-full max-w-[1200px] flex-col justify-between gap-10 px-6 py-12 md:flex-row">
       <div>
-        <Button href="https://halaskastudio.com/./book">Start a chat</Button>
+        <Button href="https://halaskastudio.com/./book">Apri una conversazione</Button>
       </div>
       <div className="flex gap-12 text-[#051A24]">
         <ArrowUpRight className="mt-1 h-5 w-5" />

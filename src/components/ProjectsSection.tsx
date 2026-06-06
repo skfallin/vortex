@@ -3,17 +3,17 @@ import { useInViewAnimation } from '../hooks/useInViewAnimation';
 const projects = [
   {
     name: 'evr',
-    description: 'From idea to millions raised for a web3 AI product',
+    description: 'Da idea iniziale a milioni raccolti per un prodotto AI web3',
     image: 'https://motionsites.ai/assets/hero-evr-ventures-preview-DZxeVFEX.gif',
   },
   {
-    name: 'Automation Machines',
-    description: 'Streamlining industrial automation processes',
+    name: 'Macchine Automatiche',
+    description: 'Processi di automazione industriale resi più fluidi e leggibili',
     image: 'https://motionsites.ai/assets/hero-automation-machines-preview-DlTveRIN.gif',
   },
   {
     name: 'xPortfolio',
-    description: 'Modern portfolio management platform',
+    description: 'Una piattaforma moderna per la gestione dei portafogli',
     image: 'https://motionsites.ai/assets/hero-xportfolio-preview-D4A8maiC.gif',
   },
 ];

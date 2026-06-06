@@ -14,22 +14,22 @@ export function PricingSection() {
           className={`rounded-[40px] bg-[#051A24] py-10 pl-10 pr-10 text-[#E0EBF0] shadow-[inset_0_2px_18px_rgba(255,255,255,0.15),0_14px_40px_rgba(5,26,36,0.16)] md:pr-24 ${animationClass}`}
           style={{ animationDelay: '0.1s' }}
         >
-          <h2 className="text-[22px] font-medium text-[#F6FCFF]">Monthly Partnership</h2>
+          <h2 className="text-[22px] font-medium text-[#F6FCFF]">Partnership mensile</h2>
           <p className="mt-6 leading-relaxed">
-            A dedicated creative design team.
+            Un team creativo dedicato.
             <br />
-            You work directly with Viktor.
+            Lavori direttamente con Vittorio.
           </p>
           <div className="mt-10">
-            <p className="text-2xl text-[#F6FCFF]">$5,000</p>
-            <p className="mt-1 text-sm text-[#E0EBF0]">Monthly</p>
+            <p className="text-2xl text-[#F6FCFF]">€5.000</p>
+            <p className="mt-1 text-sm text-[#E0EBF0]">Al mese</p>
           </div>
           <div className="mt-10 flex flex-col gap-3">
             <Button href={bookingUrl} variant="secondary">
-              Start a chat
+              Apri una conversazione
             </Button>
             <Button href={bookingUrl} variant="primary" className="bg-[#0D212C]">
-              How it works
+              Come funziona
             </Button>
           </div>
         </article>
@@ -37,19 +37,19 @@ export function PricingSection() {
           className={`rounded-[40px] bg-white py-10 pl-10 pr-10 text-[#051A24] shadow-[0_4px_16px_rgba(0,0,0,0.08)] md:pr-24 ${animationClass}`}
           style={{ animationDelay: '0.2s' }}
         >
-          <h2 className="text-[22px] font-medium">Custom Project</h2>
+          <h2 className="text-[22px] font-medium">Progetto su misura</h2>
           <p className="mt-6 leading-relaxed text-[#051A24]/75">
-            Fixed scope, fixed timeline.
+            Perimetro chiaro, tempi definiti.
             <br />
-            Same team, same standards.
+            Stesso team, stessi standard.
           </p>
           <div className="mt-10">
-            <p className="text-2xl text-[#0D212C]">$5,000</p>
-            <p className="mt-1 text-sm text-[#273C46]">Minimum</p>
+            <p className="text-2xl text-[#0D212C]">€5.000</p>
+            <p className="mt-1 text-sm text-[#273C46]">Minimo</p>
           </div>
           <div className="mt-10">
             <Button href={bookingUrl} variant="tertiary">
-              Start a chat
+              Apri una conversazione
             </Button>
           </div>
         </article>

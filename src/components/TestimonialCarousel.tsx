@@ -11,33 +11,33 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    name: 'Marcus Anderson',
+    name: 'Marco Ferri',
     role: 'CEO, Data.storage',
-    quote: 'With very little guidance team delivered designs that were consistently spot on...',
+    quote: 'Con pochissimo briefing, il team ha consegnato design sempre centrati e pronti da usare...',
     avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=160',
   },
   {
-    name: 'alexwu',
+    name: 'Alessandro Bianchi',
     role: 'Founder, Nexgate',
-    quote: 'Viktor led the creation of our best fundraising deck to date!...',
+    quote: 'Vittorio ha guidato la creazione del nostro miglior deck di raccolta fondi finora...',
     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=160',
   },
   {
-    name: 'James Mitchell',
+    name: 'Luca Moretti',
     role: 'VP Product, LaunchPad',
-    quote: 'Working with Viktor transformed our product vision...',
+    quote: 'Lavorare con Vittorio ha trasformato il modo in cui raccontiamo la nostra visione di prodotto...',
     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=160',
   },
   {
-    name: 'Rachel Foster',
+    name: 'Giulia Romano',
     role: 'Co-founder, Nexus Labs',
-    quote: 'The design quality exceeded our expectations...',
+    quote: 'La qualità del design ha superato le nostre aspettative e ha alzato lo standard interno...',
     avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=160',
   },
   {
-    name: 'David Zhang',
+    name: 'Davide Ricci',
     role: 'Head of Design, Paradigm Labs',
-    quote: 'Incredible work from start to finish...',
+    quote: 'Un lavoro impeccabile dall’inizio alla fine, con una cura rara per ogni dettaglio...',
     avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=160',
   },
 ];
@@ -104,7 +104,7 @@ export function TestimonialCarousel() {
         style={{ animationDelay: '0.1s' }}
       >
         <h2 className="text-[32px] leading-[1.1] tracking-tight text-[#0D212C] md:text-[40px] lg:text-[44px]">
-          What <span className="font-mondwest">builders</span> say
+          Cosa dicono i <span className="font-mondwest">builder</span>
         </h2>
         <div className="flex items-center gap-3">
           <div className="flex">
@@ -126,7 +126,7 @@ export function TestimonialCarousel() {
             type="button"
             onClick={goPrevious}
             className="flex h-12 w-12 items-center justify-center rounded-full border border-[#0D212C]/20 bg-white text-[#0D212C] transition hover:bg-slate-50"
-            aria-label="Previous testimonial"
+            aria-label="Testimonianza precedente"
           >
             <ChevronLeft className="h-5 w-5" />
           </button>
@@ -134,7 +134,7 @@ export function TestimonialCarousel() {
             type="button"
             onClick={goNext}
             className="flex h-12 w-12 items-center justify-center rounded-full border border-[#0D212C]/20 bg-white text-[#0D212C] transition hover:bg-slate-50"
-            aria-label="Next testimonial"
+            aria-label="Testimonianza successiva"
           >
             <ChevronRight className="h-5 w-5" />
           </button>

@@ -71,7 +71,7 @@ export function PartnerSection() {
             className={`mb-12 font-mondwest text-[48px] leading-none text-[#0D212C] md:text-[64px] lg:text-[80px] ${animationClass}`}
             style={{ animationDelay: '0.1s' }}
           >
-            Partner with us
+            Lavora con noi
           </h2>
           <Button
             href="https://halaskastudio.com/./book"
@@ -79,7 +79,7 @@ export function PartnerSection() {
             style={{ animationDelay: '0.2s' }}
           >
             <img src={avatarUrl} alt="" className="h-10 w-10 rounded-full object-cover" />
-            Start chat with Viktor
+            Scrivi a Vittorio
           </Button>
         </div>
       </div>
